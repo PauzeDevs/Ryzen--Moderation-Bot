@@ -1,35 +1,40 @@
-MIT License
+# Ryzen Moderation Bot
 
-Copyright (c) 2025 CypherBot
+A Discord bot project organized around moderation, server utilities, database-backed features, interactive components, and community tooling.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Project Structure
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The repository is organized into dedicated modules for bot components and supporting systems, including:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-IN THE SOFTWARE.
+- `cogs/` — feature and command modules
+- `core/` — shared bot infrastructure
+- `checks/` — command and permission checks
+- `Buttons/` — interactive button components
+- `games/` — game and entertainment features
+- `database/` — database-related modules
+- `database.py` — database access layer
 
+The repository also contains media and font assets used by the bot's responses and generated content.
 
+## Development
 
----
+Clone the repository and inspect the current project configuration before running the bot:
 
-## 🌐 Social & Support
+```bash
+git clone https://github.com/PauzeDevs/Ryzen--Moderation-Bot.git
+cd Ryzen--Moderation-Bot
+```
 
-- 💬 [Join Support Server](https://discord.gg/RSPAu29Djq)
-- 🛠 [Report Issues](https://github.comdarknight156/CypherMain/issues)
-- ⭐ [Star this repo](https://github.com/darknight156/CypherMain) if you like Cypher!
+The project currently contains Python source modules and a local database layer. Use the Python version and dependency configuration expected by the source tree when deploying it.
 
----
+## Data & Configuration
 
-> Built with ❤️ by [CypherTeam](https://github.com/darknight156)
+Runtime data such as local databases should be treated as application state. Bot tokens, API credentials, and other secrets must never be committed to the repository.
+
+## Status
+
+Ryzen Moderation Bot is maintained as a development project. Commands and internal modules may change as the codebase evolves.
+
+## Maintainer
+
+Maintained by [PauzeDevs](https://github.com/PauzeDevs).
